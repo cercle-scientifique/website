@@ -10,7 +10,14 @@
         <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <style>
-            
+            .detailcours{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .detailcours *{
+                width: auto;
+                margin: 0 .3rem;
+            }
         </style>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -92,43 +99,27 @@
         
                 </div>
             </header>
-            <div class="search-container" data-search-box>
-                <div class="container">
-        
-                <button class="search-close-btn" aria-label="Close search" data-search-toggler>
-                    <ion-icon name="close-outline"></ion-icon>
-                </button>
-        
-                <div class="search-wrapper">
-                    <input type="search" name="search" placeholder="Faite une recherche ici..." aria-label="Search" class="search-field">
-        
-                    <button class="search-submit" aria-label="Submit" data-search-toggler>
-                    <ion-icon name="search-outline"></ion-icon>
-                    </button>
-                </div>
-        
-                </div>
-            </div>
+            
             <main>
                 <article>
-
-                    
                     <section class="section course" id="courses" aria-label="course"
                         style="background-image: url('assets/images/course-bg.jpg')">
                         <div class="container">
             
-                            <p class="section-subtitle" data-aos="fade-down">Choisissez une promotion pour voir les cours</p>
-                
-                            <h2 class="h2 section-title" data-aos="fade-down">Filière informatique</h2>
+                            <h2 class="h2 section-title" data-aos="fade-down">BAC 3 Informatique</h2>
 
                             <ul class="grid-list" data-aos="zoom-out-up">
                                 <li class="shadow">
                                     <div class="course-card">
                                         <div class="card-content">
                                             <h3 class="h3">
-                                                <a href="#" class="card-title text-center">Pré-Informatique</a>
+                                                <a href="#" class="card-title text-center">Droit Informatique</a>
                                             </h3>
-                                            <span class="card-meta-text text-center">17 cours</span>
+                                            <div class="flex detailcours">
+                                                <span class="card-meta-text text-center">Nombre crédits : 4</span>
+                                                <span class="card-meta-text text-center">Nombre heures : 100h</span>
+                                                <span class="card-meta-text text-center">Enseignant : Prof Dieudonné</span>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -137,9 +128,13 @@
                                     <div class="course-card">
                                         <div class="card-content">
                                             <h3 class="h3">
-                                                <a href="#" class="card-title text-center">BAC 1 Informatique</a>
+                                                <a href="#" class="card-title text-center">Recherche Opérationnelle</a>
                                             </h3>
-                                            <span class="card-meta-text text-center">17 cours</span>
+                                            <div class="flex detailcours">
+                                                <span class="card-meta-text text-center">Nombre crédits : 4</span>
+                                                <span class="card-meta-text text-center">Nombre heures : 100h</span>
+                                                <span class="card-meta-text text-center">Enseignant : Prof Dieudonné</span>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -148,9 +143,13 @@
                                     <div class="course-card">
                                         <div class="card-content">
                                             <h3 class="h3">
-                                                <a href="#" class="card-title text-center">BAC2 Informatique</a>
+                                                <a href="#" class="card-title text-center">M.A.I</a>
                                             </h3>
-                                            <span class="card-meta-text text-center">17 cours</span>
+                                            <div class="flex detailcours">
+                                                <span class="card-meta-text text-center">Nombre crédits : 4</span>
+                                                <span class="card-meta-text text-center">Nombre heures : 100h</span>
+                                                <span class="card-meta-text text-center">Enseignant : Prof BAVUEZA</span>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -159,9 +158,13 @@
                                     <div class="course-card">
                                         <div class="card-content">
                                             <h3 class="h3">
-                                                <a href="#" class="card-title text-center">BAC3 Informatique</a>
+                                                <a href="#" class="card-title text-center">Conception de système informatique</a>
                                             </h3>
-                                            <span class="card-meta-text text-center">17 cours</span>
+                                            <div class="flex detailcours">
+                                                <span class="card-meta-text text-center">Nombre crédits : 4</span>
+                                                <span class="card-meta-text text-center">Nombre heures : 100h</span>
+                                                <span class="card-meta-text text-center">Enseignant : Prof Bavueza</span>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -170,9 +173,13 @@
                                     <div class="course-card">
                                         <div class="card-content">
                                             <h3 class="h3">
-                                                <a href="#" class="card-title text-center">Master 1 Informatique</a>
+                                                <a href="#" class="card-title text-center">Programmation web 3</a>
                                             </h3>
-                                            <span class="card-meta-text text-center">4 cours</span>
+                                            <div class="flex detailcours">
+                                                <span class="card-meta-text text-center">Nombre crédits : 4</span>
+                                                <span class="card-meta-text text-center">Nombre heures : 100h</span>
+                                                <span class="card-meta-text text-center">Enseignant : Prof Kanyinda</span>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -181,23 +188,13 @@
                                     <div class="course-card">
                                         <div class="card-content">
                                             <h3 class="h3">
-                                                <a href="#" class="card-title text-center">Master 2 Informatique</a>
+                                                <a href="#" class="card-title text-center">Base des données</a>
                                             </h3>
-                                            <span class="card-meta-text text-center">3 cours</span>
-                                            
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <h2 class="h2 section-title" data-aos="fade-down">Filière Mathématiques</h2>
-                            <ul class="grid-list" data-aos="zoom-out-up">
-                                <li class="shadow">
-                                    <div class="course-card">
-                                        <div class="card-content">
-                                            <h3 class="h3">
-                                                <a href="#" class="card-title text-center">Pré-Mathématiques</a>
-                                            </h3>
-                                            <span class="card-meta-text text-center">17 cours</span>
+                                            <div class="flex detailcours">
+                                                <span class="card-meta-text text-center">Nombre crédits : 4</span>
+                                                <span class="card-meta-text text-center">Nombre heures : 100h</span>
+                                                <span class="card-meta-text text-center">Enseignant : Prof Mukala</span>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -206,9 +203,13 @@
                                     <div class="course-card">
                                         <div class="card-content">
                                             <h3 class="h3">
-                                                <a href="#" class="card-title text-center">BAC 1 Mathématiques</a>
+                                                <a href="#" class="card-title text-center">Génie logiciel</a>
                                             </h3>
-                                            <span class="card-meta-text text-center">17 cours</span>
+                                            <div class="flex detailcours">
+                                                <span class="card-meta-text text-center">Nombre crédits : 4</span>
+                                                <span class="card-meta-text text-center">Nombre heures : 100h</span>
+                                                <span class="card-meta-text text-center">Enseignant : Prof Bukasa</span>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -217,42 +218,13 @@
                                     <div class="course-card">
                                         <div class="card-content">
                                             <h3 class="h3">
-                                                <a href="#" class="card-title text-center">BAC2 Mathématiques</a>
+                                                <a href="#" class="card-title text-center">Programmation Android</a>
                                             </h3>
-                                            <span class="card-meta-text text-center">17 cours</span>
-                                            
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="shadow">
-                                    <div class="course-card">
-                                        <div class="card-content">
-                                            <h3 class="h3">
-                                                <a href="#" class="card-title text-center">BAC3 Mathématiques</a>
-                                            </h3>
-                                            <span class="card-meta-text text-center">17 cours</span>
-                                            
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="shadow">
-                                    <div class="course-card">
-                                        <div class="card-content">
-                                            <h3 class="h3">
-                                                <a href="#" class="card-title text-center">Master 1 Mathématiques</a>
-                                            </h3>
-                                            <span class="card-meta-text text-center">5 cours</span>
-                                            
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="shadow">
-                                    <div class="course-card">
-                                        <div class="card-content">
-                                            <h3 class="h3">
-                                                <a href="#" class="card-title text-center">Master 2 Mathématiques</a>
-                                            </h3>
-                                            <span class="card-meta-text text-center">3 cours</span>
+                                            <div class="flex detailcours">
+                                                <span class="card-meta-text text-center">Nombre crédits : 4</span>
+                                                <span class="card-meta-text text-center">Nombre heures : 100h</span>
+                                                <span class="card-meta-text text-center">Enseignant : Prof Mukala</span>
+                                            </div>
                                             
                                         </div>
                                     </div>

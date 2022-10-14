@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Math-Info | UNILU</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <style>
+            
+        </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+        <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
+        <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
+    </head>
+
+    <body id="top">
+        <!-- <div class="container-loader">
+            <div class="loader">
+                <div class="cercle"></div>
+                <div class="cercle"></div>
+            </div>
+        </div> -->
+        <div id="app">
+            <header class="header" data-header>
+                <div class="container">
+        
+                    <h1>
+                        <a href="#" class="logo">Math-Info</a>
+                    </h1>
+            
+                    <nav class="navbar" data-navbar>
+            
+                        <div class="navbar-top">
+                        <a href="#" class="logo">Math-Info</a>
+            
+                        <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                        </div>
+            
+                        <ul class="navbar-list">
+            
+                        <li class="navbar-item">
+                            <a href="index.html" class="navbar-link" data-nav-toggler>Accueil</a>
+                        </li>
+            
+                        <li class="navbar-item">
+                            <a href="about.html" class="navbar-link" data-nav-toggler>Cours</a>
+                        </li>
+            
+                        <li class="navbar-item">
+                            <a href="about.html" class="navbar-link" data-nav-toggler>Apropos</a>
+                        </li>
+            
+                        <li class="navbar-item">
+                            <a href="event.html" class="navbar-link" data-nav-toggler>Event</a>
+                        </li>
+            
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link" data-nav-toggler>Contact</a>
+                        </li>
+            
+                        </ul>
+            
+                    </nav>
+            
+                    <div class="header-actions">
+            
+                        <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+                        <ion-icon name="search-outline"></ion-icon>
+                        </button>
+            
+                        <a href="#" class="header-action-btn login-btn">
+                        <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            
+                        <span class="span">Connexion / Inscription</span>
+                        </a>
+            
+                        <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+                        <ion-icon name="menu-outline"></ion-icon>
+                        </button>
+            
+                    </div>
+            
+                    <div class="overlay" data-nav-toggler data-overlay></div>
+        
+                </div>
+            </header>
+            <div class="search-container" data-search-box>
+                <div class="container">
+        
+                <button class="search-close-btn" aria-label="Close search" data-search-toggler>
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+        
+                <div class="search-wrapper">
+                    <input type="search" name="search" placeholder="Faite une recherche ici..." aria-label="Search" class="search-field">
+        
+                    <button class="search-submit" aria-label="Submit" data-search-toggler>
+                    <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                </div>
+        
+                </div>
+            </div>
+            <main>
+                <article>
+
+                    <section class="section about mt-5" id="about" aria-label="about">
+                        <div class="container">
+            
+                        <figure class="about-banner">
+            
+                            <img src="assets/images/mat.jpeg" width="450" height="590" loading="lazy" alt="about banner"
+                            class="w-100 about-img">
+            
+                            <img src="assets/images/about2.jpeg" width="188" height="242" loading="lazy" aria-hidden="true"
+                            class="abs-img abs-img-1">
+            
+                            <img src="assets/images/about.JPG" width="150" height="200" loading="lazy" aria-hidden="true"
+                            class="abs-img abs-img-2">
+            
+                        </figure>
+            
+                        <div class="about-content">
+            
+                            <p class="section-subtitle">Pourquoi faire ce choix ?</p>
+            
+                            <h2 class="h2 section-title">Bienvenue au département !</h2>
+            
+                            <ul class="about-list">
+            
+                            <li class="about-item">
+            
+                                <div class="item-icon item-icon-1">
+                                <img src="assets/images/tsh.jpeg" class="round-full img-cover" width="30" height="30" loading="lazy" aria-hidden="true">
+                                </div>
+            
+                                <div>
+                                <h3 class="h3 item-title">Meilleure formation</h3>
+            
+                                <p class="item-text text-justify">
+                                    Vous aurez l'opportinuté d'être enseigné par les Professeurs venant d'ailleurs (Europe, U.S.A..)
+                                    avec un accompagnement dans la démarche scientifique
+                                </p>
+                                </div>
+            
+                            </li>
+            
+                            <li class="about-item">
+            
+                                <div class="item-icon item-icon-2">
+                                <img src="./assets/images/about3.JPG" class="round-full img-cover" width="30" height="30" loading="lazy" aria-hidden="true">
+                                </div>
+            
+                                <div>
+                                <h3 class="h3 item-title">Salle de pratique</h3>
+            
+                                <p class="item-text text-justify">
+                                    En devenant étudiant du département vous serez équipé tout au long de votre cursus académique d'une salle
+                                    de pratique.
+                                </p>
+                                </div>
+            
+                            </li>
+            
+                            <li class="about-item">
+            
+                                <div class="item-icon item-icon-3">
+                                <img src="./assets/images/about3.JPG" class="round-full img-cover" width="30" height="30" loading="lazy" aria-hidden="true">
+                                </div>
+            
+                                <div>
+                                <h3 class="h3 item-title">Réjoindre plusieurs événements</h3>
+            
+                                <p class="item-text text-justify">
+                                    En étant étudiant en informatique vous aurez les opporitnutés de
+                                    réjoindre plusieurs programmes et événements (Google DSC, Microsoft SP...).
+                                </p>
+                                </div>
+            
+                            </li>
+            
+                            </ul>
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+            
+                        </div>
+            
+                        </div>
+                        
+                    </section>
+                    <section class="container">
+                        <p class="section-subtitle text-center" data-aos="fade-down">A propos</p>
+                        <h2 class="h2 section-title text-center mb-4" data-aos="fade-down">Apropos du département</h2>
+                        <p class="text-justify ">
+                            Les mathématiques et informatique est un nouveau département de la faculté des sciences de l'Université de Lubumbashi 
+                            Les mathématiques et informatique est un nouveau département de la faculté des sciences de l'Université de Lubumbashi
+                            Les mathématiques et informatique est un nouveau département de la faculté des sciences de l'Université de Lubumbashi
+                            Les mathématiques et informatique est un nouveau département de la faculté des sciences de l'Université de Lubumbashi
+                            Les mathématiques et informatique est un nouveau département de la faculté des sciences de l'Université de Lubumbashi
+                            Les mathématiques et informatique est un nouveau département de la faculté des sciences de l'Université de Lubumbashi
+                            Les mathématiques et informatique est un nouveau département de la faculté des sciences de l'Université de Lubumbashi
+                            Les mathématiques et informatique est un nouveau département de la faculté des sciences de l'Université de Lubumbashi
+                            Les mathématiques et informatique est un nouveau département de la faculté des sciences de l'Université de Lubumbashi
+                            Les mathématiques et informatique est un nouveau département de la faculté des sciences de l'Université de Lubumbashi
+                        </p>
+                    </section>
+                    <section class="section course" id="courses" aria-label="course"
+                        style="background-image: url('assets/images/course-bg.jpg')">
+                        <div class="container">
+            
+                            <p class="section-subtitle" data-aos="fade-down">Les Responsables</p>
+                
+                            <h2 class="h2 section-title" data-aos="fade-down">Responsables académique</h2>
+
+                            <ul class="grid-list" data-aos="zoom-out-up">
+                                <li>
+                                    <div class="course-card">
+                    
+                                        <figure class="card-banner">
+                                        <img src="assets/images/res2.jpeg" width="370" height="270" loading="lazy"
+                                            alt="Competitive Strategy law for all students" class="img-cover">
+                                        </figure>
+                    
+                                        <div class="card-actions">
+                                            <span class="badge">P.O</span>
+                                        </div>
+                    
+                                        <div class="card-content">
+                    
+                                            <ul class="card-meta-list">
+                        
+                                                <li class="card-meta-item">
+                                                <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+                        
+                                                <span class="card-meta-text">Chef du département</span>
+                                                </li>
+                                            </ul>
+                                            <h3 class="h3">
+                                                <a href="#" class="card-title">Professeur KUMWIMBA SEYA DIDIER</a>
+                                            </h3>
+                                        </div>
+                    
+                                    </div>
+                                </li>
+                
+                                <li>
+                                    <div class="course-card">
+                    
+                                        <figure class="card-banner">
+                                            <img src="assets/images/res1.jpeg" width="370" height="270" loading="lazy"
+                                            alt="Machine Learning A-Z" class="img-cover">
+                                        </figure>
+                    
+                                        <div class="card-actions">
+                                            <span class="badge">Assistant</span>
+                                        </div>
+                    
+                                        <div class="card-content">
+                    
+                                            <ul class="card-meta-list">
+                        
+                                                <li class="card-meta-item">
+                                                    <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+                            
+                                                    <span class="card-meta-text">Secrétaire départemenatal</span>
+                                                </li>
+                        
+                                            </ul>
+                        
+                                            <h3 class="h3">
+                                                <a href="#" class="card-title">TSHIDINGI MAPUMBA MATTHIEU</a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                
+                                <li>
+                                    <div class="course-card">
+                    
+                                        <figure class="card-banner">
+                                        <img src="assets/images/_MG_8011.JPG" width="370" height="270" loading="lazy"
+                                            alt="Achieving Advanced in Insights with Big" class="img-cover">
+                                        </figure>
+                    
+                                        <div class="card-actions">
+                                            <span class="badge">Docteur</span>
+                                        </div>
+                    
+                                        <div class="card-content">
+                    
+                                        <ul class="card-meta-list">
+                    
+                                            <li class="card-meta-item">
+                                                <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+                        
+                                                <span class="card-meta-text">Président du jury</span>
+                                            </li>
+                                        </ul>
+                    
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">DOCTEUR AXEL BULA différentielles</a>
+                                        </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-primary" data-aos="flip-left">
+                                <span class="span">Voir tout les Cours</span>
+                
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+            
+                        </div>
+                    </section>
+        
+                    <section class="section cta" aria-label="workshop" style="background-image: url('./assets/images/cta-bg.png')">
+                        <div class="container">
+            
+                        <figure class="cta-banner">
+                            <img src="./assets/images/elvin.jpeg" width="580" height="380" loading="lazy" alt="cta banner"
+                            class="img-cover">
+                        </figure>
+            
+                        <div class="cta-content">
+            
+                            <p class="section-subtitle">ateliers gratuits</p>
+            
+                            <h2 class="h2 section-title">Rejoignez nos ateliers gratuits</h2>
+            
+                            <p class="section-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet, consect adipi scing elit, sed do
+                            eiusmod tempor
+                            incididunt ut sed do eiusmod tempor incididunt ut labore et dolore aliqua.
+                            </p>
+            
+                            <a href="#" class="btn btn-secondary">
+                            <span class="span">Rejoindre</span>
+            
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+            
+                        </div>
+            
+                        </div>
+                    </section>
+    
+                </article>
+            </main>
+    
+            <footer class="footer">
+                <div class="container">
+        
+                <div class="footer-top">
+        
+                    <div class="footer-brand">
+        
+                    <a href="#" class="logo">Math-Info</a>
+        
+                    <p class="section-text">
+                        Les mathématiques et informatique est un département de la faculté des Sciences
+                        de l'Université de Lubumbashi, situé sur la route Kassapa en diagonale du bâtiment administratif de l'Université de Lubumbashi
+                    </p>
+        
+                    <ul class="social-list">
+        
+                        <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        </li>
+        
+                        <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        </li>
+        
+                        <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        </li>
+        
+                        <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        </li>
+        
+                    </ul>
+        
+                    </div>
+        
+                    <ul class="footer-list">
+        
+                    <li>
+                        <p class="footer-list-title">UNILU</p>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">unilu.ac.cd</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Apparitorat</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Paiement</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Année académique</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Autres</span>
+                        </a>
+                    </li>
+        
+                    </ul>
+        
+                    <ul class="footer-list">
+        
+                    <li>
+                        <p class="footer-list-title">Nos pages</p>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Accueil</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">A propos</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Cours</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Contact</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Blog</span>
+                        </a>
+                    </li>
+        
+                    </ul>
+        
+                    <ul class="footer-list">
+        
+                    <li>
+                        <p class="footer-list-title">Contact</p>
+                    </li>
+        
+                    <li class="footer-item">
+                        <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        
+                        <address class="footer-link">
+                        275 Route Kassapa, faculté des sciences, Lubumbashi
+                        </address>
+                    </li>
+        
+                    <li class="footer-item">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+        
+                        <a href="tel:+13647657839" class="footer-link">+243 995 555 480</a>
+                    </li>
+        
+                    <li class="footer-item">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+        
+                        <a href="tel:+13647657840" class="footer-link">+243 995 555 480</a>
+                    </li>
+        
+                    <li class="footer-item">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        
+                        <a href="mailto:contact@eduhome.com" class="footer-link">cerclescientifique.unilu@gmail.com</a>
+                    </li>
+        
+                    </ul>
+        
+                </div>
+        
+                <div class="footer-bottom">
+                    <p class="copyright">
+                    Copyright 2022 Math-Info | UNILU Tout droit réservé.
+                    </p>
+                </div>
+        
+                </div>
+            </footer>
+    
+        <!-- 
+            - #BACK TO TOP
+        -->
+    
+        <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+            <ion-icon name="arrow-up"></ion-icon>
+        </a>
+        </div>
+        
+        
+        <script src="./assets/js/script.js" defer></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+        AOS.init();
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Math-Info | UNILU</title>
+        <style>
+
+        </style>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+        <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
+        <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
+    </head>
+
+    <body id="top">
+        <!-- <div class="container-loader">
+            <div class="loader">
+                <div class="cercle"></div>
+                <div class="cercle"></div>
+            </div>
+        </div> -->
+        <div id="app">
+            <header class="header" data-header>
+                <div class="container">
+        
+                <h1>
+                    <a href="#" class="logo">Math-Info</a>
+                </h1>
+        
+                <nav class="navbar" data-navbar>
+        
+                    <div class="navbar-top">
+                    <a href="#" class="logo">Math-Info</a>
+        
+                    <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                    </div>
+        
+                    <ul class="navbar-list">
+        
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-toggler>Accueil</a>
+                    </li>
+        
+                    <li class="navbar-item">
+                        <a href="cours.html" class="navbar-link" data-nav-toggler>Cours</a>
+                    </li>
+        
+                    <li class="navbar-item">
+                        <a href="about.html" class="navbar-link" data-nav-toggler>Apropos</a>
+                    </li>
+        
+                    <li class="navbar-item">
+                        <a href="event.html" class="navbar-link" data-nav-toggler>Event</a>
+                    </li>
+        
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-nav-toggler>Contact</a>
+                    </li>
+        
+                    </ul>
+        
+                </nav>
+        
+                <div class="header-actions">
+        
+                    <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+                    <ion-icon name="search-outline"></ion-icon>
+                    </button>
+        
+                    <a href="#" class="header-action-btn login-btn">
+                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+        
+                    <span class="span">Connexion / Inscription</span>
+                    </a>
+        
+                    <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+                    <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+        
+                </div>
+        
+                <div class="overlay" data-nav-toggler data-overlay></div>
+        
+                </div>
+            </header>
+            <div class="search-container" data-search-box>
+                <div class="container">
+        
+                <button class="search-close-btn" aria-label="Close search" data-search-toggler>
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+        
+                <div class="search-wrapper">
+                    <input type="search" name="search" placeholder="Faite une recherche ici..." aria-label="Search" class="search-field">
+        
+                    <button class="search-submit" aria-label="Submit" data-search-toggler>
+                    <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                </div>
+        
+                </div>
+            </div>
+            <main>
+                <article>
+                    <section class="home">
+                        <div class="swiper home-slider">
+                            <div class="swiper-wrapper">
+                                <section class="swiper-slide slide" style="background: url(un.jpeg) no-repeat;">
+                                    <div class="content">
+                                        <h3>Bienvenue au département des mathématiques et informatique !</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit labore dolore unde, quidem corrupti?</p>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </section>
+                    <!-- 
+                        - #EVENT
+                    -->
+            
+                    <section class="section event" id="event" aria-label="event" >
+                        <div class="container">
+            
+                            <p class="section-subtitle" data-aos="zoom-out-up">Quelques Événements</p>
+                
+                            <h2 class="h2 section-title" data-aos="zoom-out-down">Rejoignez notre communauté</h2>
+                
+                            <ul class="grid-list" data-aos="zoom-out-up">
+                
+                                <li>
+                                    <div class="event-card">
+                    
+                                        <figure class="card-banner">
+                                        <img src="./assets/images/avril.JPG" width="370" height="250" loading="lazy"
+                                            alt="Innovation & Technological Entrepreneurship Team" class="img-cover">
+                                        </figure>
+                    
+                                        <time class="badge" datetime="2022-12-04">15 Avril 2022</time>
+                    
+                                        <div class="card-content">
+                    
+                                        <address class="card-address">
+                                            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                    
+                                            <span class="span">Lubumbashi, route kassapa, Géo</span>
+                                        </address>
+                    
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">Les jeunes dans les numériques</a>
+                                        </h3>
+                    
+                    
+                                        </div>
+                    
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="event-card">
+                    
+                                        <figure class="card-banner">
+                                        <img src="./assets/images/avril.JPG" width="370" height="250" loading="lazy"
+                                            alt="Innovation & Technological Entrepreneurship Team" class="img-cover">
+                                        </figure>
+                    
+                                        <time class="badge" datetime="2022-12-04">15 Avril 2022</time>
+                    
+                                        <div class="card-content">
+                    
+                                        <address class="card-address">
+                                            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                    
+                                            <span class="span">Lubumbashi, route kassapa, Géo</span>
+                                        </address>
+                    
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">Les jeunes dans les numériques</a>
+                                        </h3>
+                    
+                    
+                                        </div>
+                    
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="event-card">
+                    
+                                        <figure class="card-banner">
+                                        <img src="./assets/images/avril.JPG" width="370" height="250" loading="lazy"
+                                            alt="Innovation & Technological Entrepreneurship Team" class="img-cover">
+                                        </figure>
+                    
+                                        <time class="badge" datetime="2022-12-04">15 Avril 2022</time>
+                    
+                                        <div class="card-content">
+                    
+                                        <address class="card-address">
+                                            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                    
+                                            <span class="span">Lubumbashi, route kassapa, Géo</span>
+                                        </address>
+                    
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">Les jeunes dans les numériques</a>
+                                        </h3>
+                    
+                    
+                                        </div>
+                    
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="event-card">
+                    
+                                        <figure class="card-banner">
+                                        <img src="./assets/images/avril.JPG" width="370" height="250" loading="lazy"
+                                            alt="Innovation & Technological Entrepreneurship Team" class="img-cover">
+                                        </figure>
+                    
+                                        <time class="badge" datetime="2022-12-04">15 Avril 2022</time>
+                    
+                                        <div class="card-content">
+                    
+                                        <address class="card-address">
+                                            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                    
+                                            <span class="span">Lubumbashi, route kassapa, Géo</span>
+                                        </address>
+                    
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">Les jeunes dans les numériques</a>
+                                        </h3>
+                    
+                    
+                                        </div>
+                    
+                                    </div>
+                                </li>
+                
+                                <li>
+                                    <div class="event-card">
+                    
+                                        <figure class="card-banner">
+                                        <img src="./assets/images/tsh.jpeg" width="370" height="250" loading="lazy"
+                                            alt="Virtual Spring Part-time Jobs Fair for Student" class="img-cover">
+                                        </figure>
+                    
+                                        <time class="badge" datetime="2022-10-30">16 Septembre 2022</time>
+                    
+                                        <div class="card-content">
+                    
+                                        <address class="card-address">
+                                            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                                            <span class="span">Lubumbashi, route kassapa, Géo</span>
+                                        </address>
+                    
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">Mobilisation de problèmes de transport</a>
+                                        </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                
+                                <li>
+                                    <div class="event-card">
+                    
+                                        <figure class="card-banner">
+                                        <img src="./assets/images/_MG_8011.JPG" width="370" height="250" loading="lazy"
+                                            alt="Explorations of Regional Chief Executive Network" class="img-cover">
+                                        </figure>
+                    
+                                        <time class="badge" datetime="2022-09-18">24 Septembre 2022</time>
+                    
+                                        <div class="card-content">
+                                            <address class="card-address">
+                                                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                        
+                                                <span class="span">Lubumbashi, route kassapa, Géo</span>
+                                            </address>
+                        
+                                            <h3 class="h3">
+                                                <a href="#" class="card-title">Les avantages de devenir une communauté GDSC</a>
+                                            </h3>
+                                        </div>
+                    
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </article>
+            </main>
+    
+            <footer class="footer">
+                <div class="container">
+        
+                <div class="footer-top">
+        
+                    <div class="footer-brand">
+        
+                    <a href="#" class="logo">Math-Info</a>
+        
+                    <p class="section-text">
+                        Les mathématiques et informatique est un département de la faculté des Sciences
+                        de l'Université de Lubumbashi, situé sur la route Kassapa en diagonale du bâtiment administratif de l'Université de Lubumbashi
+                    </p>
+        
+                    <ul class="social-list">
+        
+                        <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        </li>
+        
+                        <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        </li>
+        
+                        <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        </li>
+        
+                        <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        </li>
+        
+                    </ul>
+        
+                    </div>
+        
+                    <ul class="footer-list">
+        
+                    <li>
+                        <p class="footer-list-title">UNILU</p>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">unilu.ac.cd</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Apparitorat</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Paiement</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Année académique</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Autres</span>
+                        </a>
+                    </li>
+        
+                    </ul>
+        
+                    <ul class="footer-list">
+        
+                    <li>
+                        <p class="footer-list-title">Nos pages</p>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Accueil</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">A propos</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Cours</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Contact</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#" class="footer-link">
+                        <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+        
+                        <span class="span">Blog</span>
+                        </a>
+                    </li>
+        
+                    </ul>
+        
+                    <ul class="footer-list">
+        
+                    <li>
+                        <p class="footer-list-title">Contact</p>
+                    </li>
+        
+                    <li class="footer-item">
+                        <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        
+                        <address class="footer-link">
+                        275 Route Kassapa, faculté des sciences, Lubumbashi
+                        </address>
+                    </li>
+        
+                    <li class="footer-item">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+        
+                        <a href="tel:+13647657839" class="footer-link">+243 995 555 480</a>
+                    </li>
+        
+                    <li class="footer-item">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+        
+                        <a href="tel:+13647657840" class="footer-link">+243 995 555 480</a>
+                    </li>
+        
+                    <li class="footer-item">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        
+                        <a href="mailto:contact@eduhome.com" class="footer-link">cerclescientifique.unilu@gmail.com</a>
+                    </li>
+        
+                    </ul>
+        
+                </div>
+        
+                <div class="footer-bottom">
+                    <p class="copyright">
+                    Copyright 2022 Math-Info | UNILU Tout droit réservé.
+                    </p>
+                </div>
+        
+                </div>
+            </footer>
+
+            <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+                <ion-icon name="arrow-up"></ion-icon>
+            </a>
+        </div>
+        
+        
+        <script src="./assets/js/script.js" defer></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+        AOS.init();
+        </script>
+
+    </body>
+
+</html>

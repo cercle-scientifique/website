@@ -2,7 +2,7 @@
 
 
 // LOADER
-document.getElementById('app').classList.add("none");
+// document.getElementById('app').classList.add("none");
 
 function showContent() {
     document.querySelector(".container-loader").classList.add("hidden");
