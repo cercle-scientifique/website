@@ -78,3 +78,18 @@ for (let i = 0; i < whishlistBtns.length; i++) {
     toggleElem(this);
   });
 }
+
+
+
+function check(num){
+    
+    if(num > 50){
+        const message = "Numéro > 50";
+    } else {
+        const message = "Numéro <= 50";
+    }
+
+    return message;
+}
+
+console.log(check(80));
