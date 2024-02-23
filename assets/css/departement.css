@@ -1,0 +1,139 @@
+.heading {
+  background: url("https://photos.google.com/album/AF1QipP2tQHbMf-B_YJChOJ5eq1fS4asybg2J4dR8Gk/photo/AF1QipMdzOFPmol3Ow1zqAeMpcoRp-DbhlPdKzhjKjA")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10rem;
+  padding: 10rem 14rem;
+  position: relative;
+}
+
+.heading .opacity {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  filter: blur(10px);
+  z-index: 0;
+}
+.heading .heading_content {
+  position: relative;
+  z-index: 9;
+  color: #f5f5f5;
+}
+.heading h3 {
+  font-size: 3.5rem;
+}
+
+.heading p {
+  display: flex;
+  font-size: 2rem;
+  color: #fff;
+  padding-top: 0.5rem;
+}
+
+.heading p a {
+  padding-right: 0.5rem;
+  color: #fff;
+}
+
+.heading p a:hover {
+  color: #7451eb;
+}
+.contact {
+  padding: 0 14rem;
+  margin-top: 10rem;
+}
+.contact .icons-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.contact .icons-container .icons {
+  text-align: center;
+  padding: 5rem;
+  border-radius: 1rem;
+  background: #f5f5f5;
+  margin-bottom: 2rem;
+}
+
+.contact .icons-container .icons i {
+  height: 6.5rem;
+  width: 6.5rem;
+  line-height: 6.5rem;
+  font-size: 2.5rem;
+  color: #7451eb;
+  background: #e9edfb;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.contact .icons-container .icons h3 {
+  font-size: 4rem;
+  color: #302851;
+  padding: 0.7rem 0;
+}
+
+.contact .icons-container .icons p {
+  line-height: 2;
+  font-size: 2rem;
+  color: #666;
+}
+
+.contact .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contact .row form {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+  border-radius: 1rem;
+  background: #f5f5f5;
+  padding: 2rem;
+}
+
+.contact .row form h3 {
+  font-size: 2.5rem;
+  color: #302851;
+  margin-bottom: 0.5rem;
+}
+
+.contact .row form .box,
+.contact .row form textarea {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  color: #666;
+  text-transform: none;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row .map {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+  width: 100%;
+  border-radius: 1rem;
+  height: 70vh;
+  margin-top: 6rem;
+}
