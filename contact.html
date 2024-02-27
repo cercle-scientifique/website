@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Math-Info | UNILU</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/departement.css">
+        <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+        <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
+        <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
+    </head>
+
+    <body id="top">
+        <div>
+          <header class="header" data-header>
+            <div class="container">
+            <h1>
+                <a href="#" class="logo">Sciences</a>
+            </h1>
+            <nav class="navbar" data-navbar>
+    
+                <div class="navbar-top">
+                <a href="#" class="logo">Math-Info</a>
+    
+                <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+                </div>
+    
+                <ul class="navbar-list">
+    
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-link" data-nav-toggler>Accueil</a>
+                </li>
+    
+                <li class="navbar-item">
+                    <a href="cours.html" class="navbar-link" data-nav-toggler>Cours</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="departements.html" class="navbar-link" data-nav-toggler>Départements</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="about.html" class="navbar-link" data-nav-toggler>Apropos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="event.html" class="navbar-link" data-nav-toggler>Event</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html" class="navbar-link" data-nav-toggler>Contact</a>
+                </li>
+    
+                </ul>
+    
+            </nav>
+    
+            <div class="header-actions">
+    
+                <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+                <ion-icon name="search-outline"></ion-icon>
+                </button>
+    
+                <a href="#" class="header-action-btn login-btn">
+                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+    
+                <span class="span">Connexion / Inscription</span>
+                </a>
+    
+                <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+                <ion-icon name="menu-outline"></ion-icon>
+                </button>
+    
+            </div>
+    
+            <div class="overlay" data-nav-toggler data-overlay></div>
+    
+            </div>
+        </header>
+        <div class="search-container" data-search-box>
+            <div class="container">
+    
+            <button class="search-close-btn" aria-label="Close search" data-search-toggler>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+    
+            <div class="search-wrapper">
+                <input type="search" name="search" placeholder="Faite une recherche ici..." aria-label="Search" class="search-field">
+    
+                <button class="search-submit" aria-label="Submit" data-search-toggler>
+                <ion-icon name="search-outline"></ion-icon>
+                </button>
+            </div>
+    
+            </div>
+        </div>
+          <main>
+              <section class="heading">
+                  <h3>contactez-nous</h3>
+                  <p> <router-link to="/">Accueil >></router-link> contact </p>
+              </section>
+          
+              <section class="contact">
+          
+                  <div class="icons-container">
+          
+                      <div class="icons">
+                          <i class="fas fa-phone"></i>
+                          <h3>Nos numéros</h3>
+                          <p>+243-995-555-480</p>
+                          <p>+243-810-791-904</p>
+                      </div>
+          
+                      <div class="icons">
+                          <i class="fas fa-envelope"></i>
+                          <h3>Nos e-mails</h3>
+                          <p>elvinkyungu.75@gmail.com</p>
+                          <p>cerclescientifique.unilu@gmail.com</p>
+                      </div>
+          
+                      <div class="icons">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <h3>Siège social</h3>
+                          <p>Lubumbashi, Drc - Lubumbashi</p>
+                          <p>Gambela II, Kassapa - Faculté des sciences - </p>
+                      </div>
+          
+                  </div>
+          
+                  <div class="row">
+          
+                      <form action="">
+                          <h3>Prenez contact avec nous</h3>
+                          <input type="text" placeholder="Votre nom" class="box">
+                          <input type="number" placeholder="Votre numéro de téléphone number" class="box">
+                          <input type="email" placeholder="Votre e-mail" class="box">
+                          <textarea name="" placeholder="Votre message" id="" cols="30" rows="10"></textarea>
+                          <input type="submit" value="Envoyez" class="btn">
+                      </form>
+                      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d417.8806039471235!2d27.479107580011647!3d-11.633930427134187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x197239475843a955%3A0x3f8449d49c1f87f9!2sAv.%20Kakanda%2C%20Lubumbashi!5e1!3m2!1sfr!2scd!4v1654620478067!5m2!1sfr!2scd" allowfullscreen="" loading="lazy" ></iframe>
+                  </div>
+              </section>
+          </main>
+        </div>
+        <script src="./assets/js/script.js" defer></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+        AOS.init();
+        </script>
+
+    </body>
+
+</html>
