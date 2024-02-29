@@ -3,7 +3,7 @@
    * colors
    */
 
-  --ultramarine-blue_10: hsla(235, 70%, 60%, 0.1);
+  --ultramarine-blue_10: #ffea01;
   --ultramarine-blue: hsl(235, 70%, 60%);
   --orange-peel_10: #d91818;
   --space-cadet_20: hsla(248, 32%, 23%, 0.2);
@@ -15,7 +15,7 @@
   --light-gray: hsl(0, 0%, 80%);
   --cultured-1: hsl(0, 0%, 96%);
   --cultured-2: hsl(0, 0%, 93%);
-  --coral_10: hsla(14, 95%, 66%, 0.1);
+  --coral_10: #021d9b;
   --white_10: hsla(0, 0%, 100%, 0.1);
   --black_80: hsla(0, 0%, 0%, 0.8);
   --pumpkin: hsl(26, 98%, 49%);
@@ -701,7 +701,7 @@ body {
 .about-banner {
   background-color: var(--light-gray);
   max-width: max-content;
-  aspect-ratio: 450 / 590;
+  aspect-ratio: 350 / 400;
   margin-block-end: 40px;
 }
 
@@ -720,7 +720,7 @@ body {
 }
 
 .about-item:not(:last-child) {
-  margin-block-end: 30px;
+  margin-block-end: 70px;
 }
 
 .about-item .item-icon {
